@@ -1,0 +1,20 @@
+{
+  "name": "pagina-dt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch Scss/style.scss Css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomasmarquez1985/PreEntrega2-Marquez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomasmarquez1985/PreEntrega2-Marquez/issues"
+  },
+  "homepage": "https://github.com/Tomasmarquez1985/PreEntrega2-Marquez#readme"
+}

@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
 .nav-list {
   background: rgb(195, 187, 187);
   margin: 0;
@@ -25,22 +41,6 @@
 
 .nav-item a:hover {
   color: azure;
-}
-
-body {
-  font-family: "Roboto Mono", monospace;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-footer {
-  background-color: black;
-  color: aliceblue;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-top: auto;
 }
 
 .main-container {

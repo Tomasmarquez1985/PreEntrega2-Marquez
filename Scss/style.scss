@@ -1,4 +1,6 @@
 @import "_reset.scss";
+@import "_body.scss";
+@import "_footer.scss";
 .nav-list {
   background: rgb(195, 187, 187);
   margin: 0;
@@ -19,21 +21,6 @@
   color: azure;
 }
 
-body {
-  font-family: "Roboto Mono", monospace;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-footer {
-  background-color: black;
-  color: aliceblue;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-top: auto;
-}
 .main-container {
   display: flex;
   flex-direction: column;
